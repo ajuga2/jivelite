@@ -11,7 +11,7 @@ Key Features
 - Added support for action commands via TCP/UDP port 9009
 - Introduced new commands:
   - 'volume_up:<value>' (shows the big volume popup and uses <value> as the new volume)
-  - 'timer:<numofseconds>' (displays countdown timer on clock screensaver and now-playing screensaver)
+  - 'timer:<numofseconds>' (displays a countdown timer on clock screensaver and now-playing screensaver, note: this is not an action command)
 
 Implementation Details
 
@@ -33,6 +33,7 @@ System Specifications:
 - 32-bit piCorePlayer installation
 - HiFiBerry AMP2
 - Raspberry Pi 7" Touchscreen
+- ir remote control 
   
 Software Versions:
 - piCorePlayer v7.0.0
