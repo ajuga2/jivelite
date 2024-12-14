@@ -2,7 +2,7 @@ Project Overview
 
 For my project, "Voice Assistant for piCorePlayer," I aimed to provide visual feedback for specific commands such as "set a timer for 10 minutes" or "set volume to 20." To achieve this, I modified several Lua files in Jivelite on my system. I created a fork of these modifications in case others might find them useful.
 
-Instead of generating a new pcp-squeezelite.tcz using mksquashfs, I chose to replace links to certain Lua files in /opt/jivelite/share/jive with my modified versions through /opt/bootlocal.sh.
+Instead of generating a new pcp-jivelite.tcz using mksquashfs, I chose to replace links to certain Lua files in /opt/jivelite/share/jive with my modified versions through /opt/bootlocal.sh.
 
 Key Features
 
